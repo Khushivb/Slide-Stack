@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  html,body{
+    width: 100%;
+    height: 100%;
+  }
+  /* new code */
+  #main{
+    gap: 10vh;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 150vh;
+    background-color: rgb(14, 1, 1);
+  }
+  .cards{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 80%;
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+  }
+  #card-one{
+    top: 130%;
+    background-image: url("https://media.istockphoto.com/id/1455395068/photo/jellyfish-all-over-the-ocean.jpg?s=612x612&w=0&k=20&c=HdTv81Qn1DKLcFBqM7tbYjc8E8OtpL2srEIGUS2S6UA=");
+    
+  }
+  #card-two{
+    top: 230%;
+    background-image: url("https://media.istockphoto.com/id/956076350/photo/group-of-translucent-jellyfish.jpg?s=612x612&w=0&k=20&c=kKHxBx1hzKraz6cBvc57k1RlpuilKiyz7k-MbcHMgnE=");
+  }
+  #card-three{
+    top: 250%;
+    background-image: url("https://media.istockphoto.com/id/1451055959/photo/closeup-of-jellyfish-swimming-in-water.jpg?s=612x612&w=0&k=20&c=5b_u3jv8V4s9mWt9Rdxz-_eo1UQugN-Hu4BmSUu3Kgw=");
+  }
+  
